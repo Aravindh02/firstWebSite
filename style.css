@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+  
+   background-color: #393E46;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    height: 100vh;
+    width: 100wv;
+    background: url(newBackgroundimg.jpg) no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size:900px 100%;
+   
+}
+.nav{
+    display: flex;
+    justify-content: center;
+   
+}
+.navbar{
+    height:60px ;
+    width:80%;
+    background-color: #191A19;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top:50px;
+}
+
+.brandName{
+    color: #fff;
+    font-size: small;
+    padding: 14px;
+    font-weight: bold;
+}
+.options{
+    padding: 16px;
+}
+.search{
+    padding:14px;
+    position: relative;
+    top:-5px;
+    transform: rotate(95deg); 
+}
+a:hover {
+    text-decoration: underline;
+    
+  }
+ ul,a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: small;
+ font-weight: bold;
+    color: #fff;
+    
+}
+.options ul {
+    
+    width:455px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contentBox{
+    width:240px;
+
+    color:#fff;
+    position: relative;
+    top: 150px;
+    left:230px;
+}
+.role{
+    font-size: 14px;
+    
+}
+.profession{
+    font-family:sans;
+     margin:20px 0;
+     font-size: 110px;
+     margin-left: 0px;
+}
+.message{
+    margin:20px 0;
+    text-align: left;
+}
+.mainContent{
+  
+    margin-top: 30px;
+    width:240px;
+    color:#fff;
+    position: relative;
+    left:635px;
+    bottom: 280px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 580;
+}
+.firstLine{
+  
+    margin:17px 0;
+   
+}
+.nextLine{
+    line-height: 1.9;
+}
